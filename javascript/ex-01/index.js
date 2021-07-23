@@ -8,7 +8,7 @@ const participantes = [
 
 // Deve retornar o nome do participante que obteve a maior pontuacao
 function quemGanhou() {
-
+    return(participantes[0].nome)
 }
 
 // Deve retornar a pontuacao média dos participantes
@@ -23,12 +23,12 @@ function pontuacaoTotal() {
 
 // Deve retornar a idade do participante mais velho
 function veterano() {
-
+    return(participantes[2].idade)
 }
 
 // Deve retornar o número de participantes do torneio
-function numeroDeParticipantes() {
-
+function numeroDeParticipantes(numero) {
+    return (participantes.length)
 }
 
 
